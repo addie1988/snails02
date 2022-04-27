@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>snails02</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- icon -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <!-- top -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- top -->
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header">
+        <div class="header-content">
+            <div class="header-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#"><span>G</span>ogopo</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="btn">
+                            <span class="line1"></span>
+                            <span class="line2"></span>
+                            <span class="line3"></span>
+                        </div>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Gallery</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Full Width</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Sidebar Left</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Sidebar Right</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Basic Grid</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item control" href="#">Level 2</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        Level 2 + Drop
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="dropdown-menu two" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Level 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Level 3</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Level 3</a>
+                                    </div>
+                                    <a class="dropdown-item control" href="#">Level 2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="header-banner">
+                <div class="header-banner-News-Group">
+                    <div class="header-banner-News">
+                        <h1>Congue ut tempor magna</h1>
+                        <p>In sem convallis vitae ullamcorper ex sagittis suspendisse suscipit enim ut blandit auctor
+                            felis
+                            orci ornare eros consectetur sollicitudin lectus mi in magna.</p>
+                    </div>
+                    <a href="#"><button>Donec molestie blandit</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+
+    <!-- about -->
+    <div class="about">
+        <div class="about-content">
+            <div class="row">
+                <div class="col-3">
+                    <span>Finibus consectetur vulputate</span>
+                    <h5>Sed eu justo at arcu auctor rhoncus</h5>
+                </div>
+                <div class="col-9">
+                    <p>Libero et suscipit sem tincidunt vitae porttitor mauris est quis hendrerit ante pharetra at donec
+                        feugiat rhoncus suscipit vivamus scelerisque sem quis aliquet condimentum dolor sem mollis magna
+                        id accumsan metus sem id odio.</p>
+                    <p>In nec massa aliquam eu libero in purus mollis ultrices et vel nunc integer aliquet libero
+                        praesent fermentum […]</p>
+                        <a href="#"><button>Read More »</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+
+
+    <!-- service -->
+    <div class="service">
+        <div class="service-content">
+            <div class="service-content-title">
+                <h5>Dolor nulla mattis</h5>
+                <p>Leo pretium id pretium augue molestie suspendisse</p>
+            </div>
+            <div class="service-content-main">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Pretium turpis a porta erat</h5>
+                                <p class="card-text">Nostra per inceptos himenaeos sed eu sapien auctor pharetra
+                                    ligula nec pharetra lacus […]</p>
+                                <a href="#" class="btn btn-primary">View Details »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <i class="fa fa-ambulance"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Tristique massa arcu non ad</h5>
+                                <p class="card-text">Integer finibus sagittis mollis aliquam erat volutpat nulla
+                                    lacinia sodales augue eu […]</p>
+                                <a href="#" class="btn btn-primary">View Details »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <i class="fa fa-area-chart"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Consectetur diam vel eleifend</h5>
+                                <p class="card-text">Ornare suspendisse potenti donec rhoncus magna in tempus
+                                    feugiat suspendisse auctor […]</p>
+                                <a href="#" class="btn btn-primary">View Details »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Metus nisi sed neque class</h5>
+                                <p class="card-text">A interdum ornare purus augue faucibus nibh sed interdum
+                                    leo lorem a justo curabitur […]</p>
+                                <a href="#" class="btn btn-primary">View Details »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <i class="fa fa-gamepad" aria-hidden="true"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Aptent taciti sociosqu quam</h5>
+                                <p class="card-text">Dictum leo non sodales mollis ut malesuada felis ac lacinia
+                                    iaculis massa libero convallis […]</p>
+                                <a href="#" class="btn btn-primary">View Details »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Litora torquent per conubia</h5>
+                                <p class="card-text">Ante a imperdiet dui felis non lacus mauris risus interdum
+                                    quis nulla et fringilla vestibulum […]</p>
+                                <a href="#" class="btn btn-primary">View Details »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-background"></div>
+    </div>
+    <!-- service end -->
+
+
+    <!-- ervice-two -->
+    <div class="ervice-two">
+        <div class="ervice-two-content">
+            <div class="row">
+                <div class="col-3">
+                    <h5>Massa donec</h5>
+                    <p>
+                        Erat felis tempus at placerat eget elementum sit amet justo nunc luctus mattis iaculis
+                        vestibulum convallis.
+                    </p>
+                    <a href="#"><button>Urna pharetra</button></a>
+                </div>
+                <div class="col-3">
+                    <div class="ervice-two-img-one"><img src="./images/ervice-two1.jpg"></div>
+                    <h6>Sit amet consectetur</h6>
+                    <span><a href="#">View Details</a></span>
+                </div>
+                <div class="col-3">
+                    <div class="ervice-two-img-one"><img src="./images/ervice-two2.jpg"></div>
+                    <h6>Enim luctus integer</h6>
+                    <span><a href="#">View Details</a></span>
+                </div>
+                <div class="col-3">
+                    <div class="ervice-two-img-one"><img src="./images/ervice-two3.jpg"></div>
+                    <h6>Tristique odio in</h6>
+                    <span><a href="#">View Details</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="ervice-two-background"></div>
+    </div>
+    <!-- ervice-two end -->
+
+
+    <!-- team -->
+    <div class="team">
+        <div class="team-content">
+            <div class="team-title">
+                <h5>Ante venenatis purus</h5>
+                <p>Bibendum ante neque ultrices eros ac luctus sapien</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="team-img"><img src="./images/team1.jpg"></div>
+                    <h6>C. Name</h6>
+                    <p>Duis euismod egestas risus</p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                        <li></li><li></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <div class="team-img"><img src="./images/team2.jpg"></div>
+                    <h6>C. Name</h6>
+                    <p>Duis euismod egestas risus</p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                        <li></li><li></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <div class="team-img"><img src="./images/team3.jpg"></div>
+                    <h6>C. Name</h6>
+                    <p>Duis euismod egestas risus</p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                        <li></li><li></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <div class="team-img"><img src="./images/team4.jpg"></div>
+                    <h6>C. Name</h6>
+                    <p>Duis euismod egestas risus</p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                        <li></li><li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team end -->
+
+
+    <!-- slogan -->
+    <div class="slogan">
+        <div class="slogan-content">
+            <div class="slogan-title">
+                <h6>Sollicitudin quis leo</h6>
+                <p>Laoreet id etiam erat ex congue eu tincidunt a</p>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="Mug-shot-one"><img src="./images/Mug-shot-one.jpg"></div>
+                    <blockquote>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                        curae phasellus iaculis nisl sed ex lobortis bibendum quis eget nunc vivamus viverra tellus.
+                    </blockquote>
+                    <h6>G. Name</h6>
+                    <em>Senectus et netus et</em>
+                </div>
+                <div class="col-6">
+                    <div class="Mug-shot-one"><img src="./images/Mug-shot-two.jpg"></div>
+                    <blockquote>Ac nisl faucibus nec viverra eros varius donec interdum erat eu erat dictum ut
+                        rhoncus mauris in imperdiet felis turpis id accumsan nisl tempor vitae habitant morbi
+                        tristique.</blockquote>
+                    <h6>H. Name</h6>
+                    <em>Malesuada fames ac</em>
+                </div>
+            </div>
+        </div>
+        <div class="slogan-background"></div>
+    </div>
+    <!-- slogan end -->
+
+
+    <!-- news -->
+    <div class="news">
+        <div class="news-content">
+            <div class="news-title">
+                <h6>Amet elementum neque</h6>
+                <p>Turpis egestas praesent a condimentum leo sit</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./images/slogan1.jpg" class="card-img-top" alt="...">
+                        <div class="date"><strong>06</strong><em>Apr</em></div>
+                        <div class="card-body">
+                            <h6>Mauris blandit nibh non</h6>
+                            <div class="news-about">
+                                <span><a href="#"><i class="fa fa-user" aria-hidden="true"></i>
+                                        <p>Admin</p>
+                                    </a></span>
+                                <span><a href="#"><i class="fa fa-tag" aria-hidden="true"></i>
+                                        <p>Category Name</p>
+                                    </a></span>
+                            </div>
+                            <p class="card-text">Sollicitudin condimentum lacus morbi vitae sapien ornare rhoncus
+                                purus vel fermentum massa nunc vitae metus risus habitant […]</p>
+                            <span><a href="#">Read More »</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./images/slogan2.jpg" class="card-img-top" alt="...">
+                        <div class="date"><strong>05</strong><em>Apr</em></div>
+                        <div class="card-body">
+                            <h6>Mauris blandit nibh non</h6>
+                            <div class="news-about">
+                                <span><a href="#"><i class="fa fa-user" aria-hidden="true"></i>
+                                        <p>Admin</p>
+                                    </a></span>
+                                <span><a href="#"><i class="fa fa-tag" aria-hidden="true"></i>
+                                        <p>Category Name</p>
+                                    </a></span>
+                            </div>
+                            <p class="card-text">Morbi tristique senectus et netus et malesuada fames ac turpis egestas
+                                nunc eget nibh et ante finibus lacinia integer […]</p>
+                            <span><a href="#">Read More »</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./images/slogan3.jpg" class="card-img-top" alt="...">
+                        <div class="date"><strong>04</strong><em>Apr</em></div>
+                        <div class="card-body">
+                            <h6>Mauris blandit nibh non</h6>
+                            <div class="news-about">
+                                <span><a href="#"><i class="fa fa-user" aria-hidden="true"></i>
+                                        <p>Admin</p>
+                                    </a></span>
+                                <span><a href="#"><i class="fa fa-tag" aria-hidden="true"></i>
+                                        <p>Category Name</p>
+                                    </a></span>
+                            </div>
+                            <p class="card-text">Sollicitudin condimentum lacus morbi vitae sapien ornare rhoncus
+                                purus vel fermentum massa nunc vitae metus risus habitant […]</p>
+                            <span><a href="#">Read More »</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- news end -->
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-4">
+                    <h6>Potenti proin congue</h6>
+                    <p>Ornare erat a ultricies odio vestibulum nec curabitur at lacinia sapien.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-4">
+                    <h6>Vehicula consectetur erat</h6>
+                    <ul>
+                        <li><a href="#">
+                                <article>
+                                    <h6>Sed dictum quisque non</h6>
+                                    <time>Friday, 6 <sup>th</sup> 2045</sub></time>
+                                    <p>Dolor et posuere pretium nulla fermentum eros tincidunt sodales porttitor […]</p>
+                                </article>
+                            </a>
+                        </li>
+                        <li><a href="#">Sollicitudin ante in dignissim</a></li>
+                        <li><a href="#">Leo dui at molestie sem</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h6>Ullamcorper commodo</h6>
+                    <ul>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>Street Name & Number, Town, Postcode/Zip</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone-square" aria-hidden="true"></i>
+                            <p>+00 (123) 456 7890</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <p>info@domain.com</p>
+                        </li>
+                        <li>
+                            <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                            <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                            <span><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></span>
+                            <span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                            <span><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></span>
+                            <span><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+
+    <!-- footer-bottom -->
+    <div class="footer-bottom">
+        <div class="footer-bottom-content">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright ©2012~2022 Snails . All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom end -->
+
+
+        <!-- top -->
+        <button type="button" id="BackTop" class="toTop-arrow"></button>
+        <!-- top end -->
+
+
+
+
+
+
+        <!-- 漢堡選單 按鈕 -->
+        <script type="text/javascript">
+            document.getElementsByClassName("btn")[0].onclick = function () {
+                this.classList.toggle("on");
+            }
+        </script>
+
+        <!-- top -->
+        <script>
+            $(function () {
+                $('#BackTop').click(function () {
+                    $('html,body').animate({ scrollTop: 0 }, 333);
+                });
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 300) {
+                        $('#BackTop').fadeIn(222);
+                    } else {
+                        $('#BackTop').stop().fadeOut(222);
+                    }
+                }).scroll();
+            });
+        </script>
+
+</body>
+
+</html>
